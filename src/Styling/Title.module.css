@@ -1,0 +1,10 @@
+.title {
+    color: #F5F5F5;
+    font-size: 50px;
+    font-style: strong;
+    font-weight: bold;
+}
+
+.title :hover {
+    cursor: pointer
+}
