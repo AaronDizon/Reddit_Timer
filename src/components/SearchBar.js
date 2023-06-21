@@ -75,7 +75,7 @@ const SearchBar = () => {
         <form className={styles.form} onSubmit={postForm}>
             <div className={styles.submitButton} onClick={postForm}> <IoSearchOutline size="25px"/> </div>
             <input className={styles.input} value={description} placeholder="Search" onChange={(e)=>{setDescription(e.target.value)}}/>
-            {description != '' ?  <MdClear onClick = {clearDescription} size="25px" className={styles.clearButton}/>: <p />}
+            {description !== '' ?  <MdClear onClick = {clearDescription} size="25px" className={styles.clearButton}/>: <p />}
 
         </form>
     </div>
